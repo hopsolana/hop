@@ -1,0 +1,12 @@
+.image-display {
+    position: relative;
+  }
+  
+  .custom-image {
+    width: 25%; /* Scales the width to 50% of the original */
+    height: auto; /* Keeps the aspect ratio intact */
+    position: absolute; /* This will position all images at the same spot */
+    top: 0; /* Aligns images to the top of the container */
+    left: 0; /* Aligns images to the left of the container */
+  }
+  
